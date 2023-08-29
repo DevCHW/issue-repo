@@ -1,0 +1,15 @@
+dependencies {
+    // Spring Boot
+    implementation 'org.springframework.boot:spring-boot-starter-web'
+
+    // jpa
+    implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
+
+    // modules
+    implementation project(':fitlogix-common')
+    implementation project(':fitlogix-db:db-rds')
+}
+
+bootJar { enabled = false }
+
+jar { enabled = true }

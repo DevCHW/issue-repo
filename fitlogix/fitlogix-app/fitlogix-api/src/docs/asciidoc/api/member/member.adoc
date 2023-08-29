@@ -1,0 +1,9 @@
+[[member-get]]
+=== 회원 1명 조회
+
+==== HTTP Request
+include::{snippets}/members-get/http-request.adoc[]
+
+==== HTTP Response
+include::{snippets}/members-get/http-response.adoc[]
+include::{snippets}/members-get/response-fields.adoc[]
