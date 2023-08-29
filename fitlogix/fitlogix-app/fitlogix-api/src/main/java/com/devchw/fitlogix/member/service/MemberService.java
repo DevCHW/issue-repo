@@ -14,7 +14,13 @@ public class MemberService {
 
     private final MemberReader memberReader;
 
+    // 회원 단일 조회
     public MemberResponse getMember(Long id) {
         return MemberResponse.toDto(memberReader.read(id));
     }
+
+    // TODO : 회원 리스트 조회 만들기 (이슈 내용 제목)
+    // 이슈 내용 본문
+    // assignees : DevCHW
+
 }
